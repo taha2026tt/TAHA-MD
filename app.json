@@ -1,11 +1,16 @@
 {
-  "name": "JAWAD-MD",
+  "name": "TAHA - MD",
   "version": "3.0.0",
-  "description": "Javascript WhatsApp bot made by Jᴀᴡᴀᴅ TᴇᴄʜX",
+  "description": "TAHA - MD WhatsApp Bot",
   "website": "https://files.catbox.moe/neni8p.jpg",
   "logo": "https://files.catbox.moe/neni8p.jpg",
-  "keywords": ["jawad-md", "JAWAD XMD","jawad xmd","JAWAD-MD"],
-  "repository": "https://github.com/JawadTechXD/JAWAD-MD",
+  "keywords": [
+    "jawad-md",
+    "JAWAD XMD",
+    "jawad xmd",
+    "JAWAD-MD"
+  ],
+  "repository": "https://github.com/taha2026tt/TAHA-MD",
   "success_url": "/",
   "stack": "container",
   "env": {
@@ -13,7 +18,7 @@
       "description": "Put your session-id here. Must Start with 'IK~'",
       "required": true,
       "value": ""
-    },  
+    },
     "MODE": {
       "description": "Set Mode  to 'public' to work in all chats only, 'inbox' to work in pm(inbox) chats only or 'private' to work for you only. Default is 'public'. You can set up this later using .mode",
       "required": false,
@@ -84,7 +89,6 @@
       "required": true,
       "value": "online"
     },
-    
     "ANTILINK": {
       "description": "Enter 'true' to delete links and kick the user automatically or 'delete' to delete the links without kicking the user or 'warn' to warn users 3 times before kicking them. You can set up this later using .antilink",
       "required": false,
@@ -105,7 +109,6 @@
       "required": false,
       "value": "false"
     },
-
     "AUTO_BLOCK": {
       "description": "Provide country codes you want the bot to automatically block",
       "required": false,
@@ -131,7 +134,6 @@
       "required": false,
       "value": "JAWAD-MD"
     },
-    
     "PACK_NAME": {
       "description": "You can enter your sticker pack name.",
       "required": false,
@@ -154,4 +156,4 @@
       "url": "heroku/nodejs"
     }
   ]
-  }
+}

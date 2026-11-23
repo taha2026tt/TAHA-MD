@@ -1,16 +1,16 @@
 {
-  "name": "JAWAD-MD",
+  "name": "taha-md",
   "version": "7.0.0",
-  "description": "JAWAD-MD, a Multi Device Whatsapp Bot to Enhance Whatsapp Communication Experience",
+  "description": "TAHA - MD WhatsApp Bot (based on JAWAD-MD by JawadTechXD)",
   "main": "./index.js",
   "type": "commonjs",
   "--engines": {
     "node": ">=20.0.0"
   },
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name JAWAD-MD",
-    "stop": "pm2 stop JAWAD-MD",
-    "restart": "pm2 restart JAWAD-MD"
+    "start": "pm2 start index.js --deep-monitoring --attach --name \"TAHA - MD\"",
+    "stop": "pm2 stop \"TAHA - MD\"",
+    "restart": "pm2 restart \"TAHA - MD\""
   },
   "keywords": [
     "JAWAD-MD",
@@ -31,7 +31,7 @@
     "dotenv": "^16.3.1",
     "cors": "latest",
     "body-parser": "latest",
-    "jimp":"latest",
+    "jimp": "latest",
     "translatte": "^3.0.1",
     "express": "^4.19.2",
     "ffmpeg": "0.0.4",
@@ -40,8 +40,8 @@
     "form-data": "^4.0.1",
     "fs": "^0.0.1-security",
     "fs-extra": "^11.1.0",
-    "sharp":"0.32.6", 
-    "@whiskeysockets/baileys":"7.0.0-rc.9",
+    "sharp": "0.32.6",
+    "@whiskeysockets/baileys": "7.0.0-rc.9",
     "gifted-dls": "*",
     "git": "0.1.5",
     "isolated-vm": "^5.0.3",

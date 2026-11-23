@@ -1,0 +1,17 @@
+node_modules/
+.env
+.env.*
+!.env.example
+auth_info_baileys/
+session/
+sessions/
+*.session
+*.log
+npm-debug.log*
+config.js
+session-pair/
+*.json.session
+final.js
+pair.js
+pair2.js
+*.bak
